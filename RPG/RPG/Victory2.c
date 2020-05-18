@@ -1,5 +1,5 @@
 #include "Victory2.h"
-//#include "Palya2.h"
+//#include "Palya3.h"
 
 Victory2* CreateVic2(FILE* file)
 {
@@ -114,9 +114,9 @@ void PrintVic2()
 		system("cls");
 		char ch = getch();
 
-	//	if (ch == 'f') {
-	//		PrintP2();
-	//	}
+		if (ch == 'f') {
+			PrintP3();
+		}
 
 
 	}

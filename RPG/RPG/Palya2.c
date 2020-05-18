@@ -1,5 +1,5 @@
 #include "Palya2.h"
-
+#include "Fight2.h"
 
 
 Palya2* CreateP2(FILE* file) {

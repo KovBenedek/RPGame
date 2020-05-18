@@ -125,34 +125,46 @@
   <ItemGroup>
     <ClCompile Include="Defeat.c" />
     <ClCompile Include="Defeat2.c" />
+    <ClCompile Include="Defeat3.c" />
     <ClCompile Include="Fight1.c" />
     <ClCompile Include="Fight2.c" />
+    <ClCompile Include="Fight3.c" />
     <ClCompile Include="Menu.c" />
     <ClCompile Include="Palya.c" />
     <ClCompile Include="Palya2.c" />
+    <ClCompile Include="Palya3.c" />
     <ClCompile Include="Source.c" />
     <ClCompile Include="Victory.c" />
     <ClCompile Include="Victory2.c" />
+    <ClCompile Include="Victory3.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Defeat.h" />
     <ClInclude Include="Defeat2.h" />
+    <ClInclude Include="Defeat3.h" />
     <ClInclude Include="Fight1.h" />
     <ClInclude Include="Fight2.h" />
+    <ClInclude Include="Fight3.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Palya.h" />
     <ClInclude Include="Palya2.h" />
+    <ClInclude Include="Palya3.h" />
     <ClInclude Include="Victory.h" />
     <ClInclude Include="Victory2.h" />
+    <ClInclude Include="Victory3.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Defeat.txt" />
     <Text Include="Defeat2.txt" />
+    <Text Include="Defeat3.txt" />
     <Text Include="Fight1.txt" />
     <Text Include="Fight2.txt" />
+    <Text Include="Fight3.txt" />
     <Text Include="Palya.txt" />
     <Text Include="Palya2.txt" />
+    <Text Include="Palya3.txt" />
     <Text Include="Victory.txt" />
+    <Text Include="Victory3.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

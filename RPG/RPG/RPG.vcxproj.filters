@@ -45,6 +45,18 @@
     <ClCompile Include="Defeat2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Palya3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fight3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Victory3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Defeat3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Menu.h">
@@ -74,6 +86,18 @@
     <ClInclude Include="Defeat2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Palya3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fight3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Victory3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Defeat3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Palya.txt">
@@ -95,6 +119,18 @@
       <Filter>Source Files</Filter>
     </Text>
     <Text Include="Defeat2.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Palya3.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Fight3.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Defeat3.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Victory3.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>
