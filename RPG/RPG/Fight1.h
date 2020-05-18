@@ -1,4 +1,3 @@
-
 #ifndef FIGHT1_H
 #define FIGHT1_H
 #define _CRT_SECURE_NO_WARNINGS

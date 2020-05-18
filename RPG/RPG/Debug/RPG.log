@@ -1,8 +1,15 @@
-﻿  Fight1.c
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Fight1.c(5,24): warning C4133: 'function': incompatible types - from 'FILE *' to 'const char *'
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Fight1.c(25,14): warning C4047: 'return': 'Fight *' differs in levels of indirection from 'char **'
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Fight1.c(31,37): warning C4133: 'function': incompatible types - from 'char [11]' to 'FILE *'
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Fight1.c(39,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Fight1.c(131,18): warning C4013: 'getch' undefined; assuming extern returning int
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Fight1.c(31,1): warning C4047: 'initializing': 'char **' differs in levels of indirection from 'Fight *'
+﻿  Defeat2.c
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Defeat2.c(6,24): warning C4133: 'function': incompatible types - from 'FILE *' to 'const char *'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Defeat2.c(26,16): warning C4047: 'return': 'Defeat2 *' differs in levels of indirection from 'char **'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Defeat2.c(31,43): warning C4133: 'function': incompatible types - from 'char [12]' to 'FILE *'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Defeat2.c(112,18): warning C4013: 'getch' undefined; assuming extern returning int
+  Fight2.c
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Defeat2.c(31,1): warning C4047: 'initializing': 'char **' differs in levels of indirection from 'Defeat2 *'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Fight2.c(8,24): warning C4133: 'function': incompatible types - from 'FILE *' to 'const char *'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Fight2.c(28,15): warning C4047: 'return': 'Fight2 *' differs in levels of indirection from 'char **'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Fight2.c(34,39): warning C4133: 'function': incompatible types - from 'char [11]' to 'FILE *'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Fight2.c(42,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Fight2.c(138,18): warning C4013: 'getch' undefined; assuming extern returning int
+  Generating Code...
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Fight2.c(34,1): warning C4047: 'initializing': 'char **' differs in levels of indirection from 'Fight2 *'
   RPG.vcxproj -> C:\Users\user\Desktop\GITHUB\RPGame\RPG\Debug\RPG.exe

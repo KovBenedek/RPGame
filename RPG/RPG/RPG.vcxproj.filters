@@ -27,6 +27,24 @@
     <ClCompile Include="Fight1.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Victory.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Defeat.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Palya2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fight2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Victory2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Defeat2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Menu.h">
@@ -38,12 +56,45 @@
     <ClInclude Include="Fight1.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Victory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Defeat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Palya2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fight2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Victory2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Defeat2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Palya.txt">
       <Filter>Source Files</Filter>
     </Text>
     <Text Include="Fight1.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Victory.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Defeat.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Palya2.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Fight2.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="Defeat2.txt">
       <Filter>Source Files</Filter>
     </Text>
   </ItemGroup>

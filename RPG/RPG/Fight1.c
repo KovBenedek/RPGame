@@ -1,4 +1,6 @@
 #include "Fight1.h"
+#include "Victory.h"
+#include "Defeat.h"
 
 Fight* CreateF(FILE* file)
 {
@@ -38,9 +40,13 @@ void PrintFight1()
 	//fight[magicX][magicY] = 'T';
 	srand(time(NULL));
 
+	time_t cTime, sTime;
+	sTime = time(NULL);
+
 	int RandonNumber = rand() % ((3 + 1) - 1) + 1;
 	int RandonNumber2 = rand() % ((3 + 1) - 1) + 1;
 	while (1) {
+		cTime = time(NULL);
 		printf("A szorny elete: ");
 		printf("%i ", HP);
 		printf("\n");
@@ -48,7 +54,7 @@ void PrintFight1()
 		printf("A Varazslo elete: ");
 		printf("%i ", CHP);
 		printf("\n");
-
+		
 
 		
 		for (int i = 0; i < 16; ++i) {
@@ -298,19 +304,36 @@ void PrintFight1()
 		}
 		
 		if (HP == 0) {
-
-			//HA MEGHAL A SZORNY
-
+			while (1) {
+				PrintVic();
+				Sleep(1);
+				system("cls");
+			}
 		}
 		if (CHP == 0) {
-
+			while (1) {
+				PrintDef();
+				Sleep(1);
+				system("cls");
+			}
 			//HA MEGHAL A VARAZSLO
 		}
 
+		if (cTime - sTime > 60) {
+		
+			while (1) {
+				
+				PrintDef();
+				
+				Sleep(1);
+				
+				system("cls");
+				
+			}
+		}
 
 
-
-		Sleep(1);
+		Sleep(200);
 		system("cls");
 
 

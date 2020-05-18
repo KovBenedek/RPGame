@@ -66,7 +66,9 @@ void PrintP()
 				if (palya[i][j] == '?') {
 					printf("?");
 				}
-
+				if (palya[i][j] == '#') {
+					printf("#");
+				}
 
 			}
 			printf("\n");
@@ -99,7 +101,7 @@ void PrintP()
 
 		}
 
-		if (playerX == 2 && playerY == 9) {
+		if (palya[playerX][playerY] == '?') {
 
 		
 			while (1) {
