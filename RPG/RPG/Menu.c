@@ -62,12 +62,15 @@ void Menu()
 
 	case 2:
 		system("cls");
-		printf("<3");
-		break;
+	
+			printf("A jatek egy varazslorol szol, aki kulonbozo helyeken szörnyekkel harcol. \nIranyitas: w-felfele\n s-lefele \n a-balra\n d-jobbra \n  Harcrendszer: A wasd billentyuk segitsegevel a varazslatot (~) elkell juttatni az ellenfelek gyengepotjaikhoz(},!,$), ezzel megsebezve oket mielott megennek a varazslot, de ha rossz helyen talalodik el a szorny az megsebzi a varazslot. \n Nyomj egy meg az 'e'-t, hogy visszterj a menube.\n");
+			
+			
+			break;
 
 	case 3:
 		system("cls");
-
+		exit(1);
 		break;
 	}
 
