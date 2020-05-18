@@ -1,16 +1,8 @@
-﻿  Menu.c
-  Palya.c
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Menu.c(17,8): warning C4013: 'system' undefined; assuming extern returning int
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya.c(6,24): warning C4133: 'function': incompatible types - from 'FILE *' to 'const char *'
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya.c(10,7): warning C4013: 'exit' undefined; assuming extern returning int
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya.c(14,32): warning C4013: 'calloc' undefined; assuming extern returning int
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya.c(26,14): warning C4047: 'return': 'Palya *' differs in levels of indirection from 'char **'
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya.c(31,36): warning C4133: 'function': incompatible types - from 'char [10]' to 'FILE *'
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya.c(74,22): warning C4013: 'getch' undefined; assuming extern returning int
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya.c(107,9): warning C4013: 'system' undefined; assuming extern returning int
-  Source.c
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya.c(31,1): warning C4047: 'initializing': 'char **' differs in levels of indirection from 'Palya *'
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Source.c(10,8): warning C4013: 'system' undefined; assuming extern returning int
-  Generating Code...
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Source.c(38,21): warning C4013: 'getch' undefined; assuming extern returning int
+﻿  Fight1.c
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Fight1.c(5,24): warning C4133: 'function': incompatible types - from 'FILE *' to 'const char *'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Fight1.c(25,14): warning C4047: 'return': 'Fight *' differs in levels of indirection from 'char **'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Fight1.c(31,37): warning C4133: 'function': incompatible types - from 'char [11]' to 'FILE *'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Fight1.c(39,18): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Fight1.c(131,18): warning C4013: 'getch' undefined; assuming extern returning int
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Fight1.c(31,1): warning C4047: 'initializing': 'char **' differs in levels of indirection from 'Fight *'
   RPG.vcxproj -> C:\Users\user\Desktop\GITHUB\RPGame\RPG\Debug\RPG.exe

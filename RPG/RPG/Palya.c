@@ -1,4 +1,5 @@
 #include "Palya.h"
+#include "Fight1.h"
 
 Palya* CreateP(FILE* file)
 {
@@ -16,7 +17,7 @@ Palya* CreateP(FILE* file)
 	for (int i = 0; i < 29; ++i) {
 		palya[i] = (char*)(calloc(60, sizeof(char)));
 	}
-	for (int i = 0; i < 30; ++i) {
+	for (int i = 0; i < 29; ++i) {
 		for (int j = 0; j < 60; ++j) {
 			fscanf(fin, "%c \n", &palya[i][j]);
 
@@ -32,11 +33,11 @@ void PrintP()
 
 
 
-	int index = 1;
+	
 
 	int elozoX, elozoY;
-	int playerX = 10;
-	int playerY = 10;
+	int playerX = 1;
+	int playerY = 1;
 	palya[playerX][playerY] = 'P';
 
 
@@ -94,16 +95,26 @@ void PrintP()
 			palya[playerX][playerY] = 'P';
 			palya[elozoX][elozoY] = '0';
 
+
+
 		}
 
-		if (palya[playerX][playerY] == '*') {
+		if (playerX == 2 && playerY == 9) {
 
-			palya[playerX][playerY] = 'P';
-			palya[elozoX][elozoY] = '*';
+		
+			while (1) {
+
+				
+	
+				
+				PrintFight1();
+
+				Sleep(200);
+				system("cls");
+			}
+			
 		}
-
-
-		//Sleep(1);
+		Sleep(1);
 		system("cls");
 	}
 

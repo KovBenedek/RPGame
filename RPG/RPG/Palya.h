@@ -1,4 +1,3 @@
-
 #ifndef PALYA_H
 #define PALYA_H
 #define _CRT_SECURE_NO_WARNINGS

@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-
+void Menu();
 void arrowHere(int realPosition, int arrowPosition);
 
 void backgroundColor();
