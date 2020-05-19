@@ -100,6 +100,22 @@ void PrintP2() {
 
 		}
 
+		if (palya2[playerX2][playerY2] == '3') {
+
+			playerX2= 1;
+			playerY2= 1;
+		}
+		if (palya2[playerX2][playerY2] == '#') {
+
+			playerX2 = 1;
+			playerY2= 1;
+		}
+		if (palya2[playerX2][playerY2] == '1') {
+
+			playerX2 = 1;
+			playerY2 = 1;
+		}
+
 		if (palya2[playerX2][playerY2] == '?') {
 
 			while (1) {

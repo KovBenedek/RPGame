@@ -99,7 +99,21 @@ void PrintP3() {
 
 
 		}
+		if (palya3[playerX3][playerY3] == '3') {
 
+			playerX3 = 1;
+			playerY3 = 1;
+		}
+		if (palya3[playerX3][playerY3] == '#') {
+
+			playerX3 = 1;
+			playerY3 = 1;
+		}
+		if (palya3[playerX3][playerY3] == '1') {
+
+			playerX3 = 1;
+			playerY3= 1;
+		}
 		if (palya3[playerX3][playerY3] == '?') {
 
 			while (1) {

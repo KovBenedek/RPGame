@@ -100,6 +100,21 @@ void PrintP()
 
 
 		}
+		if (palya[playerX][playerY] == '3') {
+
+			playerX = 1;
+			playerY = 1;
+		}
+		if (palya[playerX][playerY] == '#') {
+
+			playerX = 1;
+			playerY = 1;
+		}
+		if (palya[playerX][playerY] == '1') {
+
+			playerX = 1;
+			playerY = 1;
+		}
 
 		if (palya[playerX][playerY] == '?') {
 
@@ -119,7 +134,6 @@ void PrintP()
 		Sleep(1);
 		system("cls");
 	}
-
 
 
 }

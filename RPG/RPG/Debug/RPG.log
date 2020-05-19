@@ -1,5 +1,20 @@
-﻿  Menu.c
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Menu.c(8,8): warning C4013: 'system' undefined; assuming extern returning int
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Menu.c(36,21): warning C4013: 'getch' undefined; assuming extern returning int
-C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Menu.c(73,7): warning C4013: 'exit' undefined; assuming extern returning int
+﻿  Palya.c
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya.c(7,24): warning C4133: 'function': incompatible types - from 'FILE *' to 'const char *'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya.c(27,14): warning C4047: 'return': 'Palya *' differs in levels of indirection from 'char **'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya.c(32,36): warning C4133: 'function': incompatible types - from 'char [10]' to 'FILE *'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya.c(77,22): warning C4013: 'getch' undefined; assuming extern returning int
+  Palya2.c
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya.c(32,1): warning C4047: 'initializing': 'char **' differs in levels of indirection from 'Palya *'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya2.c(7,24): warning C4133: 'function': incompatible types - from 'FILE *' to 'const char *'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya2.c(27,15): warning C4047: 'return': 'Palya2 *' differs in levels of indirection from 'char **'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya2.c(34,38): warning C4133: 'function': incompatible types - from 'char [11]' to 'FILE *'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya2.c(76,23): warning C4013: 'getch' undefined; assuming extern returning int
+  Palya3.c
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya2.c(34,1): warning C4047: 'initializing': 'char **' differs in levels of indirection from 'Palya2 *'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya3.c(7,24): warning C4133: 'function': incompatible types - from 'FILE *' to 'const char *'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya3.c(27,15): warning C4047: 'return': 'Palya3 *' differs in levels of indirection from 'char **'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya3.c(34,39): warning C4133: 'function': incompatible types - from 'char [11]' to 'FILE *'
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya3.c(76,23): warning C4013: 'getch' undefined; assuming extern returning int
+  Generating Code...
+C:\Users\user\Desktop\GITHUB\RPGame\RPG\RPG\Palya3.c(34,1): warning C4047: 'initializing': 'char **' differs in levels of indirection from 'Palya3 *'
   RPG.vcxproj -> C:\Users\user\Desktop\GITHUB\RPGame\RPG\Debug\RPG.exe

@@ -50,7 +50,7 @@ void PrintFight1()
 		printf("A szorny elete: ");
 		printf("%i ", HP);
 		printf("\n");
-		printf("%d\n", RandonNumber);
+	//	printf("%d\n", RandonNumber);
 		printf("A Varazslo elete: ");
 		printf("%i ", CHP);
 		printf("\n");
